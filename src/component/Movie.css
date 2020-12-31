@@ -11,6 +11,11 @@
     height:300px;
 }
 
+Link a{
+    color:inherit;
+    text-decoration: none;
+}
+
 .movie:hover{
     transform:scale(0.99);
 }

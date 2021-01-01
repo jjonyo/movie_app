@@ -7,7 +7,7 @@ function About(props){
     <span>
       Movie Information with ReactJS
       <p>
-      <a href="https://github.com/jjonyo/movie_app" target="_blank">Github Code Here</a>
+      <a href="https://github.com/jjonyo/movie_app" target="_blank" rel="noreferrer">Source Code Here</a>
       </p>
     </span>
     <span>−jjonyo-</span>

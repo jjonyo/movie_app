@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import "./Detail.css";
 
@@ -7,7 +6,7 @@ class Details extends React.Component{
 
     componentDidMount(){
         const {location,history} = this.props;
-        if (location.state == undefined){
+        if (location.state === undefined){
             history.push('/');
         }
     }
